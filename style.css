@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.header-buttons a{
+    border: 2px solid rgb(255 0 165);
+    border-radius: 100px;
+    margin: 0 8px;
+    padding: 12px 50px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a:hover{
+    color: #000000;
+    background-color: #fff;
+    transition: 1s;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+}
+.header-section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+}
+.center-div
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 303px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
